@@ -110,6 +110,9 @@ Inspirada en una estética moderna con carácter alternativo, esta paleta equili
 
 ## 🆔 Identidad visual
 
+🔗 [Tablero de trabajo - Sprint 2](https://trello.com/b/mjjEDpiP/mi-tablero-de-trello)
+
+
 ### Logo
 
 (Insertar aquí imagen del logo o link al logo)
