@@ -1,0 +1,173 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  color: #000;
+}
+
+/* NAVBAR */
+.navbar {
+  background-color: #36575E; /* azul verdoso */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  flex-wrap: wrap;
+}
+
+/* LOGO + texto */
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-link {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: white;
+  text-decoration: none;
+}
+
+.logo-image {
+  width: 40px;   /* ancho deseado */
+  height: 40px;  /* alto deseado, para que mantenga proporción */
+  object-fit: contain; /* para que no se distorsione */
+  border-radius: 50%;  /* si querés que sea circular */
+}
+
+.logo-circle {
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+/* Título dentro del logo */
+.logo-link h1 {
+  font-size: 1.5rem;
+}
+
+/* CENTRO - Buscador */
+.nav-center {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.search-form {
+  display: flex;
+  gap: 0.5rem;
+  width: 300px;
+}
+
+.search-form input[type="text"] {
+  flex-grow: 1;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  border: none;
+  background-color: #000; /* negro */
+  color: #fff;
+  font-size: 1rem;
+}
+
+.search-form input[type="text"]::placeholder {
+  color: #ccc;
+}
+
+.search-form button {
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #385A80; /* azul profundo */
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.search-form button:hover {
+  background-color: #2a4660;
+}
+
+/* DERECHA - enlaces */
+.nav-right {
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-right a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.nav-right a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Main */
+main {
+  padding: 2rem;
+}
+
+.productos-destacados h2 {
+  margin-bottom: 1rem;
+}
+
+/* Ejemplo simple de producto */
+.producto {
+  border: 1px solid #D3D3D3;
+  padding: 1rem;
+  max-width: 300px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.producto img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.producto h3 {
+  margin: 1rem 0 0.5rem;
+}
+
+.producto p {
+  color: #36575E;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.producto a {
+  text-decoration: none;
+  color: #385A80;
+  font-weight: bold;
+  border: 1px solid #385A80;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.producto a:hover {
+  background-color: #385A80;
+  color: white;
+}
+
+/* Footer */
+footer {
+  background-color: #36575E;
+  color: white;
+  text-align: center;
+  padding: 1rem 2rem;
+  margin-top: 2rem;
+}

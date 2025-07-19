@@ -83,7 +83,7 @@ https://www.figma.com/design/pc9uTuEhoTiC2EQHXABUo0/Carrito?node-id=1-3&t=c3BCQb
 | Elemento                  | Color         | Código HEX |
 |---------------------------|---------------|-------------|
 | Fondo principal           | Blanco        | `#FFFFFF`   |
-| Fondo alternativo         | Borgoña oscuro| `#594242`   |
+| Fondo alternativo         | azul verdoso  | `#36575E`   |
 | Barra de navegación       | Negro         | `#000000`   |
 | Botón principal (Buscar)  | Azul profundo | `#385A80`   |
 | Texto principal           | Negro         | `#000000`   |

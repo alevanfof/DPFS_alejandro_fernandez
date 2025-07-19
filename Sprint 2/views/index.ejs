@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mercado Musical</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-left logo-container">
+                <a href="/" class="logo-link">
+                    <img src="/img/logo.jpg" alt="Logo Mercado Musical" class="logo-image" />
+                    <h1>Mercado Musical</h1>
+                </a>
+            </div>
+
+            <div class="nav-center">
+                <form action="/buscar" method="GET" class="search-form">
+                    <input type="text" name="q" placeholder="Buscar instrumentos, discos..." />
+                    <button type="submit">🔍</button>
+                </form>
+            </div>
+
+            <div class="nav-right">
+                <a href="/cart">Carrito</a>
+                <a href="/register">Registro</a>
+                <a href="/login">Login</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="productos-destacados">
+            <h2>Productos Destacados</h2>
+
+            <!-- Ejemplo de producto -->
+            <div class="producto">
+                <img src="/images/guitarra.jpg" alt="Guitarra eléctrica" />
+                <h3>Guitarra Eléctrica</h3>
+                <p>$120.000</p>
+                <a href="/product-detail">Ver más</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Mercado Musical - Todos los derechos reservados</p>
+    </footer>
+</body>
+
+</html>
