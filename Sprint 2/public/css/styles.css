@@ -35,6 +35,19 @@ body {
   text-decoration: none;
 }
 
+.search-btn {
+  background-image: url('/images/search-icon.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 16px 16px;
+  width: 20px;
+  height: 20px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+
 .logo-image {
   width: 40px;   /* ancho deseado */
   height: 40px;  /* alto deseado, para que mantenga proporción */
@@ -64,7 +77,7 @@ body {
 .search-form {
   display: flex;
   gap: 0.5rem;
-  width: 300px;
+  width: 900px;
 }
 
 .search-form input[type="text"] {
