@@ -11,6 +11,19 @@ body {
   color: #000;
 }
 
+.cart-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cart-icon {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  vertical-align: center;
+}
+
 /* NAVBAR */
 .navbar {
   background-color: #36575E; /* azul verdoso */
@@ -182,5 +195,10 @@ footer {
   color: white;
   text-align: center;
   padding: 1rem 2rem;
-  margin-top: 2rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
 }
+
