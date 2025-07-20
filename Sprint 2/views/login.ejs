@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Iniciar sesión</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="stylesheet" href="/css/register.css" />
+</head>
+
+<body>
+
+    <header>
+        <%- include('partials/navbar-auth') %>
+    </header>
+
+    <!-- Logo y Navbar (copiá esto desde tu archivo de registro) -->
+
+
+    <main class="form-container">
+        <form action="/login" method="POST" class="register-form">
+
+            <h2 style="text-align: center; color: black; margin-bottom: 1rem;">¡Hola de nuevo!</h2>
+
+            <label for="email">Correo electrónico</label>
+            <input type="email" id="email" name="email" required autofocus />
+
+            <label for="password">Contraseña</label>
+            <input type="password" id="password" name="password" required />
+
+            <button type="submit" class="btn-crear-cuenta">Iniciar sesión</button>
+
+            <a href="/register" class="btn-volver">Crear cuenta</a>
+
+        </form>
+    </main>
+
+    <!-- Footer -->
+    <%- include('partials/footer') %>
+
+</body>
+
+</html>
